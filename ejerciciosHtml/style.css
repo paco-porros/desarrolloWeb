@@ -1,0 +1,49 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,li{
+    padding: 35px;
+    margin: 20px;
+    border: 1px solid;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header .texto-blanco{
+    background-color: rgb(192, 113, 44);
+}
+
+.texto-blanco, .texto-blanco a{
+    color: aliceblue;
+    font-size: 30px;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Farsan&display=swap');
+
+:root{
+    --color-principal-verde:#006634;
+    --color-principal-naranja:#ed6615;
+
+    --fuentes-titulos: "Amatic SC";
+    --fuentes-cuerpo: "Farsan";
+    --tamaño-titulos: 3px;
+
+    --borde-redondeado:10px;
+    --borde-grosor:35px;
+    --borde-color:var(--color-principal-naranja)
+
+}
+
+.seccion-verde a{
+    color: var(--color-principal-naranja);
+    border: var(--borde-grosor);
+    text-decoration: none;
+    border-color: var(--borde-color);
+
+}
