@@ -5,8 +5,22 @@
     font-family: sans-serif;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playlist+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playlist+Script&display=swap");
+
 :root{
     --color-fondo:#FDF5E6;
     --color-texto:#6E4228;
-    --color-veganos:#87A96B;
+    --color-detalle-verde:#87A96B;
+
+    --fuente-cuerpo: "Opens Sans";
+    --fuente-titulos: "Montserrat";
+}
+
+header{
+    background-color: var(--color-detalle-verde);
+
+}
+.logo img{
+    height: 50px;
 }
