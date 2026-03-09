@@ -177,6 +177,9 @@ nav ul li a{
     border-radius: 10px;
     background-color: var(--color-btn-naranja);
     overflow: hidden;
+    img{
+        width: 100%;
+    }
 
 }
 .rollo-producto img{
@@ -277,4 +280,113 @@ nav ul li a{
         border-radius: 25px;
         box-shadow: var(--sombra-botones-claro);
     }
+}
+.bowls{
+    background-color:var(--color-detalle-verde);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: var(--margen-interna-secciones);
+    color: var(--color-fondo);
+}
+
+.bowl-titulo{
+    flex: 1;
+    margin-bottom: 10px;
+    margin: var(--margen-interna-secciones);
+    h2{
+        font-family: var(--fuente-titulos);
+        font-size: 6rem;
+    }
+}
+
+.bowls-items{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.bowl-item{
+    box-shadow: var(--sombra-botones-oscuro);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    width: 270px;
+    height: 460px;
+    border: 1px solid var(--color-texto);
+    border-radius: 10px;
+    background-color: var(--color-texto);
+    overflow: hidden;
+    img{
+        width: 230px;
+    }
+    
+}
+
+.enzalada-item{
+    box-shadow: var(--sombra-botones-oscuro);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    width: 270px;
+    height: 460px;
+    border: 1px solid var(--color-texto);
+    border-radius: 10px;
+    background-color: var(--color-texto);
+    overflow: hidden;
+    img{
+        width: 230px;
+        height: 230px;
+    }
+
+    
+}
+
+.precio{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .precio a{
+        text-decoration: none;
+        color: var(--color-detalle-verde);
+        background-color: var(--color-fondo);
+        padding: 10px 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+.mensaje-alergenos{
+    background-image: url("img/no-alergenos-no-conservantes.jpg");
+    height: calc(100vh - 74px);
+    background-color: var(--color-fondo);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; /*Para que no se repita y no consuma recursos*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2{
+        color: white;
+        font-size: 2rem;
+        text-transform: capitalize;
+        z-index: 1;
+        margin-bottom: 10px;
+    }
+    span{
+        color: var(--color-fondo);
+        margin: 10px;
+    }
+}
+.alergenos-item{
+    z-index: 1;
 }
