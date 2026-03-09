@@ -270,15 +270,10 @@ nav ul li a{
         ul{
             margin-left: 20px;
             margin-top: 10px;
+            li{
+                font-family: var(--fuente-cuerpo);
+            }
         }
-    }
-    a{
-        background-color: var(--color-texto);
-        color: var(--color-fondo);
-        text-decoration: none;
-        padding: 10px 30px;
-        border-radius: 25px;
-        box-shadow: var(--sombra-botones-claro);
     }
 }
 .bowls{
@@ -326,6 +321,9 @@ nav ul li a{
     img{
         width: 230px;
     }
+    p{
+        font-family: var(--fuente-cuerpo);
+    }
     
 }
 
@@ -344,6 +342,9 @@ nav ul li a{
         width: 230px;
         height: 230px;
     }
+    p{
+        font-family: var(--fuente-cuerpo);
+    }
 
     
 }
@@ -351,6 +352,12 @@ nav ul li a{
 .precio{
         font-size: 1.5rem;
         margin-top: 10px;
+        span{
+            font-family: var(--fuente-cuerpo);
+        }
+        a{
+            font-family: var(--fuente-cuerpo);
+        }
     }
     .precio a{
         text-decoration: none;
@@ -390,3 +397,48 @@ nav ul li a{
 .alergenos-item{
     z-index: 1;
 }
+
+.horarios{
+    background-color:var(--color-texto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--margen-interna-secciones);
+    color: var(--color-fondo);
+    h2{
+        font-family: var(--fuente-titulos);
+    }
+}
+.horarios-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: var(--margen-interna-secciones);
+}
+.horarios-cocina{
+    margin: var(--margen-interna-secciones);
+    text-align: center;
+}
+
+.horarios-cafeteria{
+    margin: var(--margen-interna-secciones);
+    text-align: center;
+}
+.linea{
+    font-size: 3rem;
+}
+
+.boton-ordenar{
+    a{
+        background-color: var(--color-texto);
+        color: var(--color-fondo);
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 25px;
+        box-shadow: var(--sombra-botones-claro);
+        font-family: var(--fuente-cuerpo);
+    }
+}
+
