@@ -124,6 +124,7 @@ nav ul li a{
     align-items: center;
     padding: var(--margen-interna-secciones);
     color: var(--color-fondo);
+    flex-wrap: wrap;
 }
 
 .rollos-contenido{
@@ -133,6 +134,7 @@ nav ul li a{
     align-items: center;
     width: 100%;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .rollos-descripcion{
@@ -284,6 +286,8 @@ nav ul li a{
     align-items: center;
     padding: var(--margen-interna-secciones);
     color: var(--color-fondo);
+    flex-wrap: wrap;
+
 }
 
 .bowl-titulo{
@@ -292,7 +296,7 @@ nav ul li a{
     margin: var(--margen-interna-secciones);
     h2{
         font-family: var(--fuente-titulos);
-        font-size: 6rem;
+        font-size: 4rem;
     }
 }
 
@@ -304,7 +308,8 @@ nav ul li a{
     align-items: center;
     width: 100%;
     gap: 20px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .bowl-item{
@@ -318,6 +323,7 @@ nav ul li a{
     border-radius: 10px;
     background-color: var(--color-texto);
     overflow: hidden;
+    flex-wrap: wrap;
     img{
         width: 230px;
     }
@@ -338,6 +344,7 @@ nav ul li a{
     border-radius: 10px;
     background-color: var(--color-texto);
     overflow: hidden;
+    flex-wrap: wrap;
     img{
         width: 230px;
         height: 230px;
@@ -388,10 +395,12 @@ nav ul li a{
         text-transform: capitalize;
         z-index: 1;
         margin-bottom: 10px;
+        font-family: var(--fuente-titulos);
     }
     span{
         color: var(--color-fondo);
         margin: 10px;
+        font-family: var(--fuente-cuerpo);
     }
 }
 .alergenos-item{
@@ -408,6 +417,12 @@ nav ul li a{
     color: var(--color-fondo);
     h2{
         font-family: var(--fuente-titulos);
+    }
+    h3{
+        font-family: var(--fuente-titulos);
+    }
+    p{
+        font-family: var(--fuente-cuerpo);
     }
 }
 .horarios-area{
@@ -441,4 +456,39 @@ nav ul li a{
         font-family: var(--fuente-cuerpo);
     }
 }
+.nuestros-platos{
+    background-color: var(--color-fondo);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: var(--margen-interna-secciones);
+    color: var(--color-fondo);
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.platos-titulo{
+    flex: 1;
+    h2{
+        font-family: var(--fuente-titulos);
+        font-size: 4rem;
+        color: #6E4228;
+    }
+}
+
+.platos-galeria{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    img{
+        width: 250px;
+        height: 200px;
+    }
+}
+
 
